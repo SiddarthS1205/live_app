@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* App */
+.App {
+    background-color: #ece5dd;
+    max-height: 100%;
+    padding: 20px;
+}
+
+
+/*  Login */
+
+.login_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10;
+}
+
+.login_icon {
+    margin-right: 10; 
+    color: darkcyan;
+}
+
+.login_form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.login_form input {
+    margin: 10;
+    height:37;
+    width: 25%;
+    border-radius: 10;
+    border-width: 5;
+    border-color: aqua;
+    font-size: 15;
+    padding: 10px;
+    padding-inline: 5,
+}
+
+.login_form button {
+    width: 10%;
+    height: 50;
+    font-weight: bold;
+    border-radius: 10;
+    font-size: 20;
+    background-color: #075e54;
+    border-width: 0;
+    color: #fff;
+    margin: 10;
+}
+
+/* Chat Container  */
+.chats_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.chats_icon {
+    color: rgb(5, 133, 33);
+}
+
+.chats_logout {
+    color: rgb(6,152,152);
+}
+
+/* chats list */
+.chats_list {
+     height: 75vh;
+     overflow: scroll;
+     overflow-x: hidden;
+}
+
+.chat_sender {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.chat_sender img,
+.chat_receiver img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.chat_sender p {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+.chat_receiver {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.chat_receiver p {
+    padding: 10px;
+    background-color: #aff6be;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+/* input text */
+ 
+.inputtext_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inputtext_container button {
+    width: 10%;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(4, 215, 95);
+    border-width: 0;
+    color: #fff;
+}
+
+.inputtext_container textarea {
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    font-size:18px ;
+}
+
+textarea {
+  flex: 1;
+  height: 60px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  resize: none;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.send_button {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
